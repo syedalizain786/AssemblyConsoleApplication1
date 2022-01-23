@@ -22,9 +22,6 @@
     <MASM Include="MasmText.asm">
       <FileType>Document</FileType>
     </MASM>
-    <MASM Include="Sample.asm">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\irvine</ExcludedFromBuild>
-    </MASM>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
